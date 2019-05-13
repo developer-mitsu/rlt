@@ -317,6 +317,12 @@ body {
         }
     }
 
+    @keyframes delete-animation {
+        to {
+            display: none;
+        }
+    }
+
     @mixin move-desc($late-time) {
         animation: move-desc 2s linear $late-time 1 alternate forwards running; 
     }
@@ -339,6 +345,8 @@ body {
             height: 100%;
             text-align: center;
             background-color: #ffffff;
+            animation: delete-animation 1s linear 15s; 
+
 
             &.none {
                 opacity: 0;

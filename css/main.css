@@ -206,6 +206,9 @@ button {
     color: white; }
   to {
     color: black; } }
+@keyframes delete-animation {
+  to {
+    display: none; } }
 .eyecatch-slide {
   position: relative;
   z-index: 2; }
@@ -219,7 +222,8 @@ button {
     width: 100%;
     height: 100%;
     text-align: center;
-    background-color: #ffffff; }
+    background-color: #ffffff;
+    animation: delete-animation 1s linear 15s; }
     .eyecatch-slide .animation-before-slide.none {
       opacity: 0;
       transition: all 2s linear 1s; }
