@@ -805,7 +805,8 @@ button {
   .service-detail__eyecatch {
     width: 100%;
     background-image: url("../img/service/service1.jpg");
-    background-position: center center; }
+    background-position: center center;
+    background-size: 100%; }
     @media screen and (min-width: 949px) {
       .service-detail__eyecatch {
         height: 330px; } }
@@ -843,6 +844,10 @@ button {
 .privacy-policy {
   width: 80%;
   margin: 80px auto; }
+  .privacy-policy p.name {
+    margin: 0;
+    padding: 0;
+    text-align: right; }
   .privacy-policy__description h3 {
     text-align: left;
     font-weight: bold;
@@ -863,7 +868,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px; }
+    margin: 30px 0; }
     .privacy-policy__description .privacy-mark p {
       width: 100%;
       margin-left: 15px;

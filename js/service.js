@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function(){
         service_buttons[2].classList.add('active');
         document.getElementById("js-service3").classList.add('active');
         eyecatch = document.getElementsByClassName('service-detail__eyecatch');
-        eyecatch[0].setAttribute('style', 'background-image:url("img/service/service3.jpg")');
+        eyecatch[0].setAttribute('style', 'background-image:url("img/service/service3.jpg");background-position: top;');
     }
     }, false);
     service_buttons[3].addEventListener('click', function(){
