@@ -102,8 +102,7 @@ button {
         padding: 10px 20px;
         width: 100%;
         background-color: white;
-        box-sizing: border-box;
-        border-bottom: 1px solid gainsboro; }
+        box-sizing: border-box; }
         @media screen and (min-width: 949px) {
           .header-nav__list li {
             display: flex;
