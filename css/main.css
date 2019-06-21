@@ -102,6 +102,9 @@ button {
         padding: 10px 20px;
         background-color: white;
         box-sizing: border-box; }
+        @media screen and (max-width: 949px) {
+          .header-nav__list li {
+            width: 100%; } }
         @media screen and (min-width: 949px) {
           .header-nav__list li {
             display: flex;

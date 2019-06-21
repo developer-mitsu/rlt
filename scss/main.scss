@@ -10,10 +10,15 @@ $sp: 480px;  // スマホ
 
 $outer-margin: 80px;
 
+@mixin sp {
+    @media screen and (max-width: $pc) {
+        @content;
+    }
+}
 
 @mixin pc {
     @media screen and (min-width:$pc) {
-        @content
+        @content;
     }
 }
 
@@ -152,11 +157,12 @@ body {
             }
             & li {
                 padding: 10px 20px;
-                width: 100%;
                 background-color: white;
                 box-sizing: border-box;
 
-
+                @include sp {
+                    width: 100%;
+                }
                 @include pc {
                     display: flex;
                     justify-content: center;
