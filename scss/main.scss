@@ -152,9 +152,10 @@ body {
             }
             & li {
                 padding: 10px 20px;
-                // width: 100%;
+                width: 100%;
                 background-color: white;
                 box-sizing: border-box;
+
 
                 @include pc {
                     display: flex;
