@@ -1384,39 +1384,38 @@ $box-wrapper-margin: calc((100% - #{$box-wrapper-height})/2) calc((100% - #{$box
     height: 100vh;
     background-color: white;
     background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     img {
+        animation: rotate 2s ease 0s infinite;
         position: absolute;
         width: 100px;
-        z-index: 10001;
-        transform: translateX(-50%);
-        transform: translateY(-50%);
-        animation: rotate 2s ease 0s infinite;
+        top: 50%;
+        left: 50%;
     }
 }
 
 @keyframes rotate {
     0% {
-        -webkit-transform:rotateY(0deg);
-        transform:rotateY(0deg);
+        -webkit-transform: translate(-50%, -50%) rotateY(0deg);
+        transform: translate(-50%, -50%) rotateY(0deg);
     }
     25% {
-        -webkit-transform:rotateY(90deg);
-        transform:rotateY(90deg);
+        -webkit-transform: translate(-50%, -50%) rotateY(90deg);
+        transform: translate(-50%, -50%) rotateY(90deg);
     }
     50% {
-        -webkit-transform:rotateY(180deg);
-        transform:rotateY(180deg);
+        -webkit-transform: translate(-50%, -50%) rotateY(180deg);
+        transform: translate(-50%, -50%) rotateY(180deg);
     }
     75% {
-        -webkit-transform:rotateY(270deg);
-        transform:rotateY(270deg);
+        -webkit-transform:translate(-50%, -50%) rotateY(270deg);
+        transform: translate(-50%, -50%) rotateY(270deg);
     }
     100% {
-        -webkit-transform:rotateY(360deg);
-        transform:rotateY(360deg);
+        -webkit-transform: translate(-50%, -50%) rotateY(360deg);
+        transform: translate(-50%, -50%) rotateY(360deg);
     }
 }
 
