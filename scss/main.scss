@@ -323,7 +323,7 @@ body {
     }
 
     @mixin move-desc($late-time) {
-        animation: move-desc 2s linear $late-time 1 alternate forwards running; 
+        animation: move-desc 2s linear $late-time 1 alternate forwards; 
     }
 
     $img-animate: 3s;
@@ -361,16 +361,16 @@ body {
                 @include tab {
                     height: 10%;
                     top: 15%;   
-                    animation: move-logo $img-animate linear 0s 1 alternate none running; 
+                    animation: move-logo $img-animate linear 0s 1 alternate none; 
                 }
 
                 @include pc {
                     height: 15%;
                     top: 15%; 
-                    animation: move-logo $img-animate linear 0s 1 alternate none running;   
+                    animation: move-logo $img-animate linear 0s 1 alternate none;   
                 }
                 
-                animation: move-logo-sp $img-animate linear 0s 1 alternate none running;
+                animation: move-logo-sp $img-animate linear 0s 1 alternate none;
                 
                 
             }
