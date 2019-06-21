@@ -100,7 +100,6 @@ button {
           z-index: 0; } }
       .header-nav__list li {
         padding: 10px 20px;
-        width: 100%;
         background-color: white;
         box-sizing: border-box; }
         @media screen and (min-width: 949px) {
@@ -120,8 +119,7 @@ button {
           flex-direction: column;
           height: 100%;
           text-decoration: none;
-          color: inherit;
-          width: 100%; }
+          color: inherit; }
           @media screen and (min-width: 949px) {
             .header-nav__list li a {
               padding: 20px;

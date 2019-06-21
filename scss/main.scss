@@ -152,7 +152,7 @@ body {
             }
             & li {
                 padding: 10px 20px;
-                width: 100%;
+                // width: 100%;
                 background-color: white;
                 box-sizing: border-box;
 
@@ -175,7 +175,7 @@ body {
                     height: 100%;
                     text-decoration: none;
                     color: inherit;
-                    width: 100%;
+                    // width: 100%;
 
                     @include pc {
                         padding: 20px;
