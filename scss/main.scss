@@ -1376,11 +1376,12 @@ $box-wrapper-margin: calc((100% - #{$box-wrapper-height})/2) calc((100% - #{$box
     padding: 0;
 }
 
+
 .loading {
     position: relative;
     z-index: 10000;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: white;
     background-attachment: fixed;
     display: flex;
