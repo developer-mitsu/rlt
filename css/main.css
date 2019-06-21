@@ -1005,6 +1005,8 @@ button {
     position: absolute;
     width: 100px;
     z-index: 10001;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
     animation: rotate 2s ease 0s infinite; }
 
 @keyframes rotate {

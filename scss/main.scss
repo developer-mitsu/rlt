@@ -1390,6 +1390,8 @@ $box-wrapper-margin: calc((100% - #{$box-wrapper-height})/2) calc((100% - #{$box
         position: absolute;
         width: 100px;
         z-index: 10001;
+        transform: translateX(-50%);
+        transform: translateY(-50%);
         animation: rotate 2s ease 0s infinite;
     }
 }
